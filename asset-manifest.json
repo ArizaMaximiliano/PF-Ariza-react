@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ArizaMaximiliano/PreEntrega2-Ariza/static/css/main.a88e97c0.css",
-    "main.js": "/ArizaMaximiliano/PreEntrega2-Ariza/static/js/main.ace8b4cc.js",
-    "static/js/787.46493d11.chunk.js": "/ArizaMaximiliano/PreEntrega2-Ariza/static/js/787.46493d11.chunk.js",
-    "index.html": "/ArizaMaximiliano/PreEntrega2-Ariza/index.html",
-    "main.a88e97c0.css.map": "/ArizaMaximiliano/PreEntrega2-Ariza/static/css/main.a88e97c0.css.map",
-    "main.ace8b4cc.js.map": "/ArizaMaximiliano/PreEntrega2-Ariza/static/js/main.ace8b4cc.js.map",
-    "787.46493d11.chunk.js.map": "/ArizaMaximiliano/PreEntrega2-Ariza/static/js/787.46493d11.chunk.js.map"
+    "main.css": "/PreEntrega2-Ariza-ArizaMaximiliano/static/css/main.a88e97c0.css",
+    "main.js": "/PreEntrega2-Ariza-ArizaMaximiliano/static/js/main.9d5a3a3f.js",
+    "static/js/787.46493d11.chunk.js": "/PreEntrega2-Ariza-ArizaMaximiliano/static/js/787.46493d11.chunk.js",
+    "index.html": "/PreEntrega2-Ariza-ArizaMaximiliano/index.html",
+    "main.a88e97c0.css.map": "/PreEntrega2-Ariza-ArizaMaximiliano/static/css/main.a88e97c0.css.map",
+    "main.9d5a3a3f.js.map": "/PreEntrega2-Ariza-ArizaMaximiliano/static/js/main.9d5a3a3f.js.map",
+    "787.46493d11.chunk.js.map": "/PreEntrega2-Ariza-ArizaMaximiliano/static/js/787.46493d11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a88e97c0.css",
-    "static/js/main.ace8b4cc.js"
+    "static/js/main.9d5a3a3f.js"
   ]
 }
