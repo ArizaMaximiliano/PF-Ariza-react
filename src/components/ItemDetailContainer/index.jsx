@@ -1,7 +1,4 @@
-import './itemListContainer.css'
-
-import ItemList from '../ItemList';
-import Text from "../Text";
+import ItemDetail from "../ItemDetail";
 import React, { useState, useEffect } from "react";
 import { useParams } from 'react-router-dom';
 
@@ -15,33 +12,21 @@ const instruments = [
 ];
 
 
-export const ItemListContainer = ({ texto }) => {
-
-    const [data, setData] = useState([]);
-    const { categoriaId } = useParams();
+export const ItemDetailContainer = () => {
+    const [data, setData] = useState({});
+    const { detalleId } = useParams();
 
     useEffect(() => {
         const getData = new Promise(resolve => {
             resolve(instruments);
         });
-        getData.then(res => setData(res));
-        if (categoriaId) {
-            getData.then(res => setData(res.filter(instruments => instruments.category === categoriaId)));
-        } else {
-            getData.then(res => setData(res));
-        }
-    }, [categoriaId])
+        getData.then(res => setData(res.find(instruments => instruments.id === parseInt(detalleId))));
 
-
+    }, [])
 
     return (
-        <>
-            <div className='catalogue'>
-                {/* <Text greeting={texto} /> */}
-                <ItemList data={data} />
-            </div>
-        </>
+        <ItemDetail data={data} />
     );
 }
 
-export default ItemListContainer;
+export default ItemDetailContainer;

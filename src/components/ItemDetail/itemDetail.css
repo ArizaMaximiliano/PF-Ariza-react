@@ -1,0 +1,27 @@
+.containerDetail{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.detail{
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.detailImage{
+    width: 100%;
+    height: auto;
+}
+
+.content{
+    padding: 10px;
+    background-color: #fff;
+}
+.content h1 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }

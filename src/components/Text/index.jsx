@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export const Text = (props) =>{
+export const Text = ({greeting}) =>{
     const style = {
         margin: '0.5em',
         paddingLeft: 0,
@@ -9,7 +9,7 @@ export const Text = (props) =>{
       };
 
     return (
-        <h1 style={style}>{props.greeting}</h1>
+        <h1 style={style}>{greeting}</h1>
     );
 }
 
