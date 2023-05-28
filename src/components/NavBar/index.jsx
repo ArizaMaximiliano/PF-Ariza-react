@@ -20,10 +20,9 @@ export const NavBar = () => {
                             <NavLink className="navLink" to="/categoria/pianos">Pianos</NavLink>
                         </li>
                         <li>
-                            <a className="navLink" href="#">
+                            <NavLink className="navLink" to="/cart">
                                 <CartWidget />
-                                <span>1</span>
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                 </div>
